@@ -40,6 +40,6 @@ clearCompletedBtn.addEventListener("click", clearCompletedTasks);
 displayTasks();
 
 function clearAll(){
-    tasks = [];
+    tasks = []; 
     displayTasks();
 }
